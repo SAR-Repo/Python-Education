@@ -12,3 +12,6 @@ class ProfilePage(BasePage):
 	def get_exit_button_text(self):
 		time.sleep(1)
 		return self.get_element(self.BUTTON_EXIT).text
+	
+	def logout(self):
+		self.click_on(self.BUTTON_EXIT)
