@@ -17,5 +17,3 @@ login_page.click_login()
 profile_page = ProfilePage(driver)
 profile_page.open_profile_popup()
 print(profile_page.get_exit_button_text())
-#assert "Выйти" in profile_page.get_exit_button_text
-

@@ -2,7 +2,6 @@
 from base_page import BasePage
 from selenium.webdriver.common.by import By
 
-
 class LoginPage(BasePage):
 	FIELD_USERNAME = (By.XPATH, "//*[@placeholder='Ник или e-mail']") 
 	FIELD_PASSWORD = (By.XPATH, "//*[@placeholder='Пароль']")
